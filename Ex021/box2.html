@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aliceblue;
+        }
+
+        nav {
+            background-color: rgb(48, 47, 47);
+            padding: 3px;
+            margin-bottom: 10px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.438);
+        }
+        nav > a { 
+            margin-right: 100px;
+            color: white;
+            text-decoration: none;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        a.primeiro > p {
+            display: none;
+        }
+        a.primeiro:hover > p {
+            display: block;
+        }
+
+        header {
+            width: 650px;
+            background-color: white;
+            border: 3px solid rgb(0, 0, 0);
+            box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.404);
+            padding: 2px 10px;
+            margin: 10px auto;
+            border-radius: 5px;
+        }
+
+        main {
+            background-color: rgba(250, 235, 215, 0.253);
+            box-shadow: 3px 3px 1px rgb(46, 45, 45);
+            border: 2px dashed black;
+            padding: 2px 10px;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            border: 3px solid white;
+            margin: 10px 3px;
+            padding: 4px 10px;
+            text-align: center;
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a class="primeiro" href="#">Pau<p> corrida<br>casual </p></a>
+            <a href="#">de</a>
+            <a href="#">Borra</a>
+            <a href="#">Cha</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p> PAU  DE  BORRACHA</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre flamengo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores distinctio asperiores quos veritatis consequuntur, temporibus velit aut maxime vero molestias, cumque magnam accusantium laudantium exercitationem, alias fuga delectus sed.</p>
+                <aside>
+                    <p>Artigo Escrito por Davi </p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Davigo &reg; </p>
+    </footer>
+</body>
+</html>

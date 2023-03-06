@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf) format(opentype);
+}
+header {
+    height: 200px;
+    background-color: #005C53;
+    text-align: center;
+    
+}
+header > h1 {
+    margin-top: 0;
+    padding-top: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-weight: normal;
+}
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+nav {
+    background-color: #005C53;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+nav > a {
+   margin-right: 20px;
+   color: white;
+   text-decoration: none;
+   font-size: 20px;
+   text-align: left;
+}
+nav > a:hover {
+    background-color: rgba(245, 245, 245, 0.322);
+    border-radius: 4px;
+}
+body {
+    margin: 0;
+    background-color: #D6D58E;
+}
+main {
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: white;
+    padding: 15px;
+    border: 5px solid #042940;
+    border-top: none;
+    border-radius: 3px;
+}
+article {
+    text-align: justify;
+    text-indent: 20px;
+}
+picture.center {
+    display: block;
+    text-align: center;
+}
+h1.historia {
+    font-family: android;
+    color: #042940;
+}
+h2 {
+    font-family: android;
+    color: #042940;
+    background-image: linear-gradient(to right, #04294077, #04294015);
+    border-radius: 3px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+p > a {
+    text-decoration: none;
+    color: #005C53;
+}
+p > a:hover {
+    text-decoration: underline;
+    color: #042940;
+}
+p > a:visited {
+    color: #042940;
+}
+iframe {
+    display: block;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    border:30px solid #042940;
+}
+ul {
+    display: inline-block
+}
+main.secundaria {
+    background-color: white;
+}
+section.rodape {
+    background-color: #042940;
+    padding: 15px;
+    border-top: none;
+}
+section.rodape > p.titulo {
+    color: white;
+}
+section.rodape2 {
+    background-color: #008174b4;
+}
+section.rodape2 > p {
+    margin-top: 0;
+    padding: 10px;
+    text-indent: 20px;
+    margin-bottom: 2px;
+}
+footer {
+    background-color: black;
+    border-radius: 3px;
+}
+footer > p {
+    margin: 5px;
+    color: white;
+    padding: 2px;
+    text-align: center;
+}
+p.titulo > a {
+    color: white;
+    text-decoration: none;
+}
