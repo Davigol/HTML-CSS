@@ -4,3 +4,4 @@
  Estou Aprendendo A criar sites e agora vou aprender a gerenciar repositórios
 
  <img src="frame.png">
+  <a href="https://davigol.github.io/projeto-netflix/" target="_blank">Meu Projeto Da Netflix</a>
